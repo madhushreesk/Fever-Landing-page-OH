@@ -1,0 +1,196 @@
+.comparePackagesTitleConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftGreenShadow {
+    width: 333px;
+    height: 4px;
+    margin: 86px 0 31px 123px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #fff, #01b37a 50%);
+}
+
+.comparePackageTitle {
+    width: 240px;
+    height: 29px;
+    margin: 73px 20px 19px;
+    font-family: MontserratRoman, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.rightGreenShadow {
+    width: 333px;
+    height: 4px;
+    margin: 86px 123px 31px 0;
+    border-radius: 2px;
+    background-image: linear-gradient(to left, #fff, #01b37a 50%);
+}
+
+.threePackageConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feverProfileOuterContainer {
+    width: 292px;
+    height: 501px;
+    margin: 110px 20px 127px 126px;
+    border-radius: 18px;
+    box-shadow: 0 18px 34px 0 rgba(255, 151, 10, 0.15);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #fff, #fff), linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.feverProfileInnerContainer {
+    width: 292px;
+    height: 176px;
+    margin: 0 0 20px;
+    border-radius: 18px;
+    box-shadow: 0 12px 44px 0 rgba(255, 151, 10, 0.11);
+    background-image: radial-gradient(circle at 47% 0%, #ffefd8, #ff970a 187%);
+}
+
+.comprehensiveFeverOuterProfile {
+    width: 292px;
+    height: 519px;
+    margin: 97px 20px 130px 20px;
+    border-radius: 18px;
+    box-shadow: 0 18px 34px 0 rgba(255, 151, 10, 0.15);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #fff, #fff), linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.comprehensiveFeverInnerProfile {
+    width: 292px;
+    height: 195px;
+    margin: -15px 0 21px;
+    border-radius: 18px;
+    box-shadow: 0 12px 44px 0 rgba(255, 151, 10, 0.11);
+    background-image: radial-gradient(circle at 47% 0%, #ffefd8, #ff970a 187%);
+}
+
+.feverImageCmp {
+    width: 175px;
+    height: 148px;
+    object-fit: contain;
+    margin: -47px 10px 10px 117px;
+}
+
+.maximumValueGreenBox {
+    width: 117px;
+    height: 18px;
+    margin: -123px 99px 10px 22px;
+    padding: 0px 0px 3px 10px;
+    border-radius: 11px;
+    background-color: #01b37a;
+}
+
+.maximumValue {
+    width: 101px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin-left: 11px;
+}
+
+.Comprehensive-Fever-title {
+    width: 132px !important;
+    height: 38px !important;
+    margin: 0 21px 2px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4e320d;
+}
+
+.mrpAndScratchPrice {
+    display: flex;
+    margin-left: 25px;
+}
+
+.mrpPrice {
+    width: 47px;
+    height: 19px;
+    margin: 7px 8px 6px 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4e320d;
+}
+
+.scratchPrice {
+    width: 72px;
+    height: 30px;
+    margin: 2px 26px 0 8px;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4e320d;
+}
+
+.InnerProfileDividingLine {
+    width: 256px;
+    height: 1px;
+    margin: 9px 0 10px;
+    border: solid 0.5px rgba(78, 50, 13, 0.39);
+}
+
+.advanceFeverOuterProfile {
+    width: 292px;
+    height: 501px;
+    margin: 110px 123px 127px 21px;
+    border-radius: 18px;
+    box-shadow: 0 18px 34px 0 rgba(255, 151, 10, 0.15);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #fff, #fff), linear-gradient(to bottom, rgba(255, 255, 255, 0.12) 29%, #ffc77a 109%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.advanceFeverInnerProfile {
+    width: 292px;
+    height: 176px;
+    margin: 0 0 21px;
+    border-radius: 18px;
+    box-shadow: 0 12px 44px 0 rgba(255, 151, 10, 0.11);
+    background-image: radial-gradient(circle at 47% 0%, #ffefd8, #ff970a 187%);
+}

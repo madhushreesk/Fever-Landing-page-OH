@@ -1,0 +1,71 @@
+.outerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-comprehensive {
+    width: 403px !important;
+    height: 30px !important;
+    margin: 0 1px 25px !important;
+    font-family: MontserratRoman !important;
+    font-size: 50.3px !important;
+    font-weight: 500 !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.title-feverProfile {
+    width: 405px !important;
+    height: 30px !important;
+    margin: 25px 0 !important;
+    font-family: Montserrat-Roman, sans-serif;
+    font-size: 49px !important;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 0.61;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff970a;
+}
+
+.greenRectangle {
+    width: 402px;
+    height: 66px;
+    margin: 25px 2px 0 1px;
+    padding: 12px 22px 13px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 0 rgba(1, 179, 122, 0.17);
+    background-image: radial-gradient(circle at 44% -105%, #7fe1c1, #01b37a 63%);
+}
+
+.tests-and-reports {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.labIcon {
+    width: 36px;
+    height: 48px;
+    margin: 0 16px 0 0;
+    object-fit: contain;
+}
+
+.reportsWithinIcon {
+    width: 33px;
+    height: 44px;
+    margin: 4px 16px 0 84px;
+    object-fit: contain;
+    background-image: radial-gradient(circle at 50% 0, #41e2af, #01b37a 134%);
+}
+
+.feverImage {
+    width: 401px;
+    height: 401px;
+    margin: 51px 123px 73px 32px;
+    object-fit: contain;
+}

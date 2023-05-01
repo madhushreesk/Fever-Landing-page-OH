@@ -1,0 +1,141 @@
+.bookNowSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookNowFormConatiner {
+    width: 341px;
+    height: 270px;
+    margin: 0 78px 0 0;
+    padding: 30px 31px 30px 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 26px 0 rgba(2, 179, 122, 0.1);
+    background-image: linear-gradient(to bottom, #e5f7f1 1%, #fff);
+}
+
+.name-input {
+    width: 280px;
+    height: 46px;
+    margin: 8px 0 20px;
+    padding: 2px 17px 1px 22px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px 0 rgba(1, 179, 122, 0.1);
+    border: solid 0.5px rgba(1, 179, 122, 0.2);
+    background-color: #fff;
+    border: none;
+}
+
+.redStarRequired {
+    color: #e60709;
+}
+
+
+.name-input::placeholder {
+    width: 160px;
+    height: 18px;
+    opacity: 0.4;
+    font-family: Montserrat-Roman, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c3c3c;
+}
+
+.phone-input {
+    width: 280px;
+    height: 46px;
+    margin: 8px 0 30px;
+    padding: 2px 17px 1px 22px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px 0 rgba(1, 179, 122, 0.1);
+    border: solid 0.5px rgba(1, 179, 122, 0.2);
+    background-color: #fff;
+}
+
+.phone-input::placeholder {
+    width: 165px;
+    height: 18px;
+    opacity: 0.4;
+    font-family: Montserrat-Roman, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c3c3c;
+}
+
+.threeIconsConatiner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.trustedby {
+    width: 67px;
+    height: 73px;
+    margin: 0 26px 0 0;
+    object-fit: contain;
+    scale: 2;
+}
+
+.IconAndText {
+    display: flex;
+}
+
+.nablIcmrText {
+    margin-top: 48px
+}
+
+.certifiedLabs {
+    width: 67px;
+    height: 73px;
+    margin: 45px 24px 45px 0;
+    object-fit: contain;
+    scale: 2;
+}
+
+.taxBenefit {
+    width: 67px;
+    height: 73px;
+    margin: 0 24px 0 0;
+    object-fit: contain;
+    scale: 2;
+}
+
+.bookNowButton {
+    width: 315px;
+    height: 53px;
+    margin: 10px 0 0;
+    padding: 16px 91px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 11px 0 rgba(167, 97, 1, 0.27);
+    background-color: #fe970a;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+    .threeIconsConatiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bookNowSectionContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
