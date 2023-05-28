@@ -149,6 +149,25 @@
     color: #4e320d;
 }
 
+.mrpTextAndScratchPrice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mrpText {
+    width: 72px;
+    height: 30px;
+    margin: 2px 26px 0 8px;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    text-align: center;
+    color: #4e320d;
+}
+
 .scratchPrice {
     width: 72px;
     height: 30px;
@@ -159,7 +178,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 2.5;
-    letter-spacing: normal;
+    text-decoration: line-through;
     text-align: center;
     color: #4e320d;
 }

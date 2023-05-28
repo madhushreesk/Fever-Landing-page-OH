@@ -1,0 +1,150 @@
+.InHouseLabsContainer {
+    width: 1200px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.backgroundColor {
+    height: 170px;
+    flex-grow: 0;
+    background-color: #ebf9f4;
+    margin-top: -120px;
+}
+
+
+.LabImageWrapper {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LabSectionImageCard {
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+}
+
+.InHouseLabsImage {
+    /* width: 100% !important; */
+    min-width: 301px !important;
+    height: 180px !important;
+    border-radius: 16px !important;
+}
+
+.InHouseLabsImageDescription {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #3c3c3c;
+    margin-top: 15px;
+    width: 180px;
+    margin-left: 20px;
+    width: 245px;
+}
+
+.InHouseLabAndGoogleRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.googleRatingContainer {
+    width: 240px;
+    height: 84px;
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(27.2px);
+    backdrop-filter: blur(27.2px);
+    background-color: #fafafa;
+    padding: 0 28px 0 0;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.textAndRating {
+    display: flex;
+}
+
+.ratingText {
+    width: 140px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.ratingInGreen {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #01b37a;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.whiteBoxWithStarsContainer {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.whiteBoxAndStars {
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 16px;
+    border-radius: 8px;
+    padding: 3px 3px 3px 3px;
+    box-shadow: 0 2px 10px 0 rgba(0, 179, 122, 0.18);
+    background-color: #fff;
+}
+
+.starRating {
+    width: 14.4px;
+    height: 14px;
+    object-fit: contain;
+    /* background-image: radial-gradient(circle at 20% 9%, #ffdfb4, #ff970a 98%); */
+    margin: 5px;
+}
+
+.InHouseLabHeadingAndIcon {
+    display: flex;
+    align-items: center;
+}
+
+.OurInHouseLabsTitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c3c3c;
+}
+
+.LabHeadingGreenBar {
+    width: 84px;
+    height: 4px;
+    margin: 10px 0 10px 20px;
+    border-radius: 2px;
+    background-image: linear-gradient(to left, #fff, #ff970a);
+}
+
+.labDescription {
+    display: flex;
+    width: 53% !important;
+    height: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #3c3c3c;
+    margin-top: 12px;
+}

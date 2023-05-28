@@ -1,0 +1,12 @@
+.carouselConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image1 {
+    width: 100% !important;
+    min-width: 301px !important;
+    height: 180px !important;
+    border-radius: 16px !important;
+}

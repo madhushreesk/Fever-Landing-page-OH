@@ -27,7 +27,11 @@ const ComparePackages = () => {
              </div>
              <div className='mrpAndScratchPrice'>
               <div className='mrpPrice'>₹1999</div>
-              <div className='scratchPrice'>MRP ₹5690</div>
+              <div className='mrpTextAndScratchPrice'>
+                <div className='mrpText'>MRP</div>
+              <div className='scratchPrice'>₹5690</div>
+              </div>
+              
              </div>
             </div>
           </div>

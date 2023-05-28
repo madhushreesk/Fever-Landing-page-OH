@@ -15,7 +15,7 @@ function App() {
       <ComparePackages/>
       <BookNowSection/>
       <OurInHouseLabs/>
-      <GoodReports/>
+      {/* <GoodReports/> */}
       <Faq/>
       <Footer/>
     </div>

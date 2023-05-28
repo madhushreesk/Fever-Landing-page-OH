@@ -35,7 +35,7 @@
     width: 160px;
     height: 18px;
     opacity: 0.4;
-    font-family: Montserrat-Roman, sans-serif;
+    font-family: "Montserrat" !important;
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -137,5 +137,6 @@
         display: flex;
         flex-direction: column;
     }
+
 
 }
