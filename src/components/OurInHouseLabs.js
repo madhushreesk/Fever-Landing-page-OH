@@ -4,13 +4,13 @@ import './OurInHouseLabs.css'
 const OurInHouseLabs = () => {
   return (
     <div>
-      <div class="InHouseLabsContainer">
-        <div class="InHouseLabHeadingAndIcon">
-        <div class="OurInHouseLabsTitle">Our in house labs</div>
-        <div class="LabHeadingGreenBar"></div>
+      <div className="InHouseLabsContainer">
+        <div className="InHouseLabHeadingAndIcon">
+        <div className="OurInHouseLabsTitle">Our in house labs</div>
+        <div className="LabHeadingGreenBar"></div>
         </div>
         <div className='InHouseLabAndGoogleRating'>
-      <div class="labDescription">
+      <div className="labDescription">
         Our team of qualified pathologists and lab technicians ensure that your
         samples are processed with the highest safety protocols so that all reports
         are absolutely accurate.
@@ -23,7 +23,6 @@ const OurInHouseLabs = () => {
         </div>
           <div className='ratingInGreen'>4.9/5</div>
         </div>
-       
 
           <div className='whiteBoxAndStarsWrapper'>
         <div className='whiteBoxWithStarsContainer'>
@@ -49,31 +48,31 @@ const OurInHouseLabs = () => {
      
       
        
-      <div class="LabImageWrapper">
-        <div class="LabSectionImageCard">
+      <div className="LabImageWrapper">
+        <div className="LabSectionImageCard">
           <img
             src="/Images/highlyQualifiedDoctors.webp"
-            class="InHouseLabsImage" alt='LabSectionImage'
+            className="InHouseLabsImage" alt='LabSectionImage'
           />
-          <div class="InHouseLabsImageDescription">
+          <div className="InHouseLabsImageDescription">
             Highly qualified and skilled doctors
           </div>
         </div>
-        <div class="LabSectionImageCard">
+        <div className="LabSectionImageCard">
           <img
             src="/Images/worldClassTechnology.webp"
-            class="InHouseLabsImage" alt='LabSectionImage'
+            className="InHouseLabsImage" alt='LabSectionImage'
           />
-          <div class="InHouseLabsImageDescription">
+          <div className="InHouseLabsImageDescription">
             World class technology and equipment
           </div>
         </div>
-        <div class="LabSectionImageCard">
+        <div className="LabSectionImageCard">
           <img
             src="/Images/internationalQuality.webp"
-            class="InHouseLabsImage" alt='LabSectionImage'
+            className="InHouseLabsImage" alt='LabSectionImage'
           />
-          <div class="InHouseLabsImageDescription">
+          <div className="InHouseLabsImageDescription">
             International Quality Compliance
           </div>
         </div>
